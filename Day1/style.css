@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    width: 100%;
+    background: #ff532f;
+}
+.col-5{
+    height:300px;
+    display: inline-block;
+    background: purple;
+    width: 19%;
+    
+}
+
+/* --------media query-------------- */
+@media (max-width:500px){
+    .col-5{
+        width: 100%;
+    }
+}
